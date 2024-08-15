@@ -1,0 +1,44 @@
+
+- class_name: 我的其他站点
+  class_desc: 
+  link_list: 
+    - name: 文档站
+      link: https://hanzn.gitlab.io/doc
+      avatar: /img/hanzn.jpg
+      descr: 我的文档
+
+- class_name: 开源项目
+  class_desc:
+  link_list:
+    - name: deepin
+      link: https://deepin.org
+      avatar: /img/deepin.png
+      descr: deepin官网
+    - name: lingmoOS
+      link: https://lingmo.org
+      avatar: /img/lingmo.png
+      descr: lingmoOS官网
+
+- class_name: 友人帐
+  class_desc: 
+  link_list:
+    - name: pzm9012
+      link: https://pzm9012.github.io
+      avatar: /img/pzm9012.jpg
+      descr: pzm9012的小站
+    - name: 阿尼樱奈奈
+      link: https://aninana.github.io
+      avatar: /img/aninana.jpg
+      descr: 阿尼樱奈奈的空间
+    - name: 青稚°
+      link: https://linux-qitong.top
+      avatar: /img/qingzhi.png
+      descr: 青稚的空间
+    - name: gfdgd xi
+      link: https://www.gfdgdxi.top/
+      avatar: /img/deepin-raccon/blush.gif
+      descr: gfdgd xi的个人小站
+    - name: 神末
+      link: https://blog.shenmo.tech/
+      avatar: /img/shenmo.jpg
+      descr: 神末的世界

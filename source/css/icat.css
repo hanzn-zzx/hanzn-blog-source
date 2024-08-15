@@ -1,0 +1,16 @@
+#post-info #post-meta .post-meta-separator {
+  margin: 0 6px;
+  padding-left: 0;
+}
+#post-meta .meta-firstline * > i,
+#post-meta .meta-secondline * > i{
+  margin-right: 6px !important;
+}
+@media screen and (max-width: 768px) {
+  #page-header #post-info {
+      bottom: 100px;
+  }
+}
+
+/* meta样式调整 */
+
