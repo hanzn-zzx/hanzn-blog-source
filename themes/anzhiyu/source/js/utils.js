@@ -691,7 +691,7 @@ const anzhiyu = {
 
   //获取音乐中的名称
   musicGetName: function () {
-    var x = document.querySelector(".aplayer-title");
+    var x = document.querySelectorAll(".aplayer-title");
     var arr = [];
     for (var i = x.length - 1; i >= 0; i--) {
       arr[i] = x[i].innerText;
@@ -845,7 +845,7 @@ const anzhiyu = {
       return;
     }
     const urlParams = new URLSearchParams(window.location.search);
-    const userId = "8152976493";
+    const userId = "9162257206";
     const userServer = "netease";
     const anMusicPageMeting = document.getElementById("anMusic-page-meting");
     if (urlParams.get("id") && urlParams.get("server")) {
@@ -920,6 +920,11 @@ const anzhiyu = {
     anMusicSwitchingBtn.addEventListener("click", () => {
       anzhiyu.changeMusicList();
     });
+
+    // 默认加载的歌单
+    if (GLOBAL_CONFIG.music_page_default === "custom") {
+      anzhiyu.changeMusicList();
+    }
 
     // 监听键盘事件
     //空格控制音乐
