@@ -5,6 +5,7 @@ categories:
 tags:
   - 小记
   - 学校
+cover: /img/banner.png
 abbrlink: 875648f9
 date: 2024-07-04 16:59:46
 ---

@@ -5,6 +5,7 @@ categories:
 tags:
   - Linux
   - 教程
+cover: /img/banner.png
 abbrlink: e9d015c9
 date: 2024-01-10 13:20:22
 ---

@@ -5,6 +5,7 @@ categories:
 tags:
   - 生活
   - 小记
+cover: /img/banner.png
 abbrlink: 2b9cc7eb
 date: 2024-02-10 00:00:13
 ---

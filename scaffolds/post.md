@@ -5,5 +5,5 @@ categories:
   -
 tags:
   - 
-cover:
+cover: /img/banner.png
 ---

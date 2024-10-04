@@ -4,6 +4,7 @@ categories:
   - 博客
 tags:
   - 小记
+cover: /img/banner.png
 abbrlink: 9f50842e
 date: 2024-02-01 21:15:06
 ---
