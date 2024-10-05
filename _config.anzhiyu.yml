@@ -3,13 +3,18 @@ menu:
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
-  我的:
-    链接: /link/ || anzhiyu-icon-link
-    音乐馆: /music/ || anzhiyu-icon-music
+  链接: /link/ || anzhiyu-icon-link
+  音乐: /music/ || anzhiyu-icon-music 
+  关于: /about/ || anzhiyu-icon-paper-plane
 
-  关于:
-    关于本人: /about/ || anzhiyu-icon-paper-plane
+  # 我的:
+  #   链接: /link/ || anzhiyu-icon-link
+  #   音乐馆: /music/ || anzhiyu-icon-music
+
+  # 关于:
+  #   关于本人: /about/ || anzhiyu-icon-paper-plane
   #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
   #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
@@ -24,10 +29,10 @@ nav:
         - name: deepin论坛
           link: https://bbs.deepin.org/user/284017
           icon: /img/favicon.ico
-    - title: 小站
+    - title: 我的文档小站
       item:
         - name: hanzn-zzx
-          link: https://bbs.deepin.org/user/284017
+          link: https://hanzn.gitlab.io/doc
           icon: /img/hanzn.jpg
 
 
@@ -426,7 +431,7 @@ footer:
   custom_text:
   runtime:
     enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    launch_time: /01/2021 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -641,10 +646,10 @@ sidebar:
 h2Divider: false
 
 # 表格隔行变色
-table_interlaced_discoloration: false
+table_interlaced_discoloration: true
 
 # 首页双栏显示
-article_double_row: true
+article_double_row: false
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默认top_img全屏，site_info在中间)
@@ -807,7 +812,7 @@ aside:
     name_link: /
 
   card_announcement:
-    enable: false
+    enable: true
     content: 欢迎来看我的博客鸭~
   card_weixin:
     enable: false
@@ -914,7 +919,7 @@ centerConsole:
 darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
-  button: true
+  button: false
   # Switch dark/light mode automatically (自动切换 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
@@ -1124,8 +1129,8 @@ comment_barrage_config:
 nav_music:
   enable: true
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
-  id: 9162257206
-  server: netease
+  id: 6247184076
+  server: tencent
   volume: 0.7 # 默认音量
   all_playlist: https://music.163.com/#/playlist?id=9162257206
 
@@ -1215,7 +1220,7 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
