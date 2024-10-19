@@ -1,3 +1,91 @@
 - class_name: 关于页
   subtitle: 小舟从此逝，江海寄余生
   avatarImg: /img/hanzn.jpg
+  avatarSkills:
+    left:
+      - 苏轼小迷弟
+      - 2
+      - 3
+      - 4
+    right:
+      - LingmoWiki编辑
+      - Arch教徒
+      - 7
+      - 8
+  name: 周子翔
+  description: 是一名 学生党、Linux发烧友
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱
+    word:
+      - 学习
+      - 生活
+      - 程序
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: 1
+        color: "#357ef5"
+      - desc: 1
+        color: "#357ef5"
+      - desc: 1
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我的家乡
+    StrengthenTitle: 中国，江西省，九江市
+    background: 
+    backgroundDark: 
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2009
+    selfInfoTips2: 
+    selfInfoContent2: 
+    selfInfoTips3: 
+    selfInfoContent3: 
+  personalities:
+    author_name: 执政官
+    personality_type: ESFJ-A
+    photo_url: 
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 小舟从此逝
+    maxim_bottom: 江海寄余生
+  buff:
+    buff_tips: 特长
+    buff_top: 足球能踢点，但也就一点
+    buff_bottom: 诗歌能写个，但也就几行
+  game:
+    game_tips: 爱好游戏
+    game_title: no
+    game_uid: no
+    game_bg: 
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 111
+        href: 112
+        cover: 
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: Linux
+  music:
+    music_tips: 音乐偏好
+    music_title: 纯音乐（灰澈大大！）
+    music_bg: https://imgessl.kugou.com/stdmusic/20240508/20240508161315403798.jpg
+    music_link: /music
