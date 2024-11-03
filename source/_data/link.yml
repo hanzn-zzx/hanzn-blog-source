@@ -1,13 +1,3 @@
-- class_name: 我的其他站点
-  class_desc: 
-  flink_style: anzhiyu
-  hundredSuffix: ""
-  link_list: 
-    - name: 文档站
-      link: https://hanzn.gitlab.io/doc
-      avatar: /img/hanzn.jpg
-      descr: 我的文档
-
 - class_name: 开源项目
   class_desc:
   flink_style: anzhiyu
@@ -47,3 +37,7 @@
       link: https://blog.shenmo.tech/
       avatar: /img/shenmo.jpg
       descr: 神末的世界
+    - name: Snowball_233
+      link: https://blog.qwq.my/
+      avatar: https://avatars.githubusercontent.com/u/97330394?v=4
+      descr: Snowball_233's Personal Blog
